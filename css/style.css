@@ -2,8 +2,27 @@
     color:white;
 }
 
-.navbar a {
+.navbar a{
     color:white;
+margin-left: 10px;
+}
+	
+
+.navbar a:hover{
+    color:white;
+	margin-left: 10px;
+	text-decoration: underline;
+}
+
+.intro-bg {
+	background-color:#b8daff !important;
+	width:100%;
+}
+
+.nav-link a:hover{
+    color:white !important;
+	margin-left: 10px;
+	text-decoration: underline;
 }
 
 .justify-content-center {
@@ -13,7 +32,10 @@
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
-    color: #0d6efd;
+    color: white;
+}
+.nav-lightblue{
+	background-color: #cde1ec;
 }
 
 .d-flex {
@@ -43,4 +65,20 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
+}
+
+.bg-primary {
+    background-color: #07689F !important;
+}
+
+.bg-dark {
+    background-color: #4e4e4e !important;
+}
+
+h2{
+	font-size: 1.5rem !important;
+}
+
+footer{
+	height: 80px;
 }
