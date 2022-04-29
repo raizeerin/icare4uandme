@@ -2,6 +2,11 @@
     color:white;
 }
 
+.justify-content-center {
+    justify-content: center!important;
+}
+
+/*NAVBAR*/
 .navbar a{
     color:white;
 margin-left: 10px;
@@ -25,10 +30,6 @@ margin-left: 10px;
 	text-decoration: underline;
 }
 
-.justify-content-center {
-    justify-content: center!important;
-}
-
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
@@ -38,6 +39,7 @@ margin-left: 10px;
 	background-color: #cde1ec;
 }
 
+/*others*/
 .d-flex {
     display: flex!important;
 }
