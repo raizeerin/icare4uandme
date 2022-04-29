@@ -11,9 +11,9 @@
 
 <body>
     <!--HEADER-->
-    <header class=" text-white">
+    <header class=" text-white sticky-top">
         <div class="navbar bg-primary"> 
-            <div class="container">
+            <div class="container align-items-center justify-content-center">
                 <div class="align-items-center justify-content-center d-flex">
                     <a href="index.html" class="d-flex"><img src="icons/home-icon.png"></a>
                     <ul class="nav col-12 col-lg-auto">
@@ -37,7 +37,7 @@
                             <a href="contact.html" class="nav-link px-2">Contact Us</a>
                         </li>
 						<li>
-                            <a href="#donate" class="nav-link px-2 btn-warning text-dark">DONATE</a>
+                            <a href="donate.html" class="nav-link px-2 btn-warning text-dark">DONATE</a>
                         </li>
                     </ul>
 
@@ -52,8 +52,8 @@
         <section class="py-5 text-center container bg-light">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h1>Priority Diseases</h1>
-                    <p class="py-4">Due to navigating the immediate post-flooding period, wounds and injuries are usually related. Floodwaters, danger displacement, or near-drowning are all possibilities.</p>
+                    <h1>Diseases</h1>
+                    <p class="py-4">Microorganisms such as bacteria, viruses, parasites, and fungus cause communicable (also known as infectious or transmissible) diseases, which can be transmitted directly or indirectly from one person to another. Some are spread by insect bites, while others are contracted by swallowing contaminated food or drink.</p>
                 </div>
             </div>
         </section>
@@ -65,13 +65,13 @@
                     <div class="col">
                         <div class="card shadow-sm">
                             <!--                            <img src="images/Chickenpox.jpg" height="240px" alt="Chickenpox">-->
-                            <img src="images/Coronavirus.jpg" height="240px" alt="Coronaviruses">
+                            <img src="images/Coronavirus.jpg"  height="240px" alt="Coronaviruses">
 
                             <div class="card-body">
                                 <h3>Chickenpox (Varicella)</h3>
                                 <p>The extremely contagious varicella zoster virus causes chickenpox. Coughing and sneezing, as well as direct touch with skin sores, transmit it.</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <a href="" class="text-muted">More Details</a>
+                                    <a href="https://en.wikipedia.org/wiki/Chickenpox" target="_blank" class="text-primary">More Details</a>
                                 </div>
                             </div>
                         </div>
@@ -84,10 +84,10 @@
 
                             <div class="card-body">
                                 <h3>Coronaviruses</h3>
-                                <p class="card-text">Coronaviruses are a vast family of viruses that may cause everything from the common cold to more serious illnesses like Middle East Respiratory Syndrome (MERS), Severe Acute Respiratory Syndrome (SARS), and Novel Coronavirus (COVID-19). Coronaviruses can produce serious respiratory illnesses.</p>
+                                <p class="card-text">Coronaviruses are a vast family of viruses that may cause everything from the common cold to more serious respiratory illnesses.</p>
                                 <div class="d-flex justify-content-between align-items-center">
 
-                                    <a class="text-muted">More Details</a>
+                                    <a href="https://en.wikipedia.org/wiki/Coronavirus" class="text-primary" target="_blank">More Details</a>
                                 </div>
                             </div>
                         </div>
@@ -99,9 +99,9 @@
 
                             <div class="card-body">
                                 <h3>Dengue</h3>
-                                <p class="card-text">The dengue virus is transmitted via the bite of an infected mosquito. Even if the symptoms are moderate, severe dengue can be fatal in just a few hours.</p>
+                                <p class="card-text">The dengue virus is transmitted via the bite of an infected mosquito. Symptoms are moderate to severe that can be fatal in just a few hours.</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <a class="text-muted">More Details</a>
+                                    <a href="https://en.wikipedia.org/wiki/Dengue" class="text-primary" target="_blank">More Details</a>
                                 </div>
                             </div>
                         </div>
@@ -119,9 +119,9 @@
 
                             <div class="card-body">
                                 <h3>Tetanus</h3>
-                                <p>Tetanus is unique among vaccine-preventable diseases in that it does not transfer from one person to another. Bacteria can be found in soil, dust, and manure, and can enter the body through skin breaks, such as cuts or puncture wounds created by contaminated things.</p>
+                                <p>Tetanus bacteria can be found in soil, dust, and manure, and can enter the body through skin breaks, such as cuts wounds created by contaminated things.</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <a href="" class="text-muted">More Details</a>
+                                    <a href="https://en.wikipedia.org/wiki/Tetanus" class="text-primary" target="_blank">More Details</a>
                                 </div>
                             </div>
                         </div>
@@ -136,7 +136,7 @@
                                 <p class="card-text">Influenza (flu) is a contagious viral infection of the nose, throat, and lungs that primarily affects people in the Philippines in June to November.</p>
                                 <div class="d-flex justify-content-between align-items-center">
 
-                                    <a class="text-muted">More Details</a>
+                                    <a href="https://en.wikipedia.org/wiki/Influenza" class="text-primary" target="_blank">More Details</a>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                                 <h3>Measles</h3>
                                 <p class="card-text">Measles is a highly contagious respiratory disease that can cause pneumonia, convulsions, brain damage, and even death.</p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <a class="text-muted">More Details</a>
+                                    <a href="https://en.wikipedia.org/wiki/Measles" class="text-primary" target="_blank">More Details</a>
                                 </div>
                             </div>
                         </div>
@@ -158,29 +158,42 @@
                 </div>
             </div>
         </div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="d-flex justify-content-end text-muted">
+					<i>Source: <a href="https://wikipedia.com/" target="_blank">Wikipedia</a> | Photo Credit: <a href="https://unsplash.com/" target="_blank">Unsplash</a><i>
+				</div>
+		</div>
 
 
     </main>
 
 
     <!--FOOTER-->
-    <div class="container"></div>
+   <div class="container"></div>
     <footer class="bg-dark">
         <ul class="nav justify-content-center border-bottom text-primary">
+			<li class="Factors">
+                <a href="index.html" class="nav-link px-2">Home</a>
+            </li>
             <li class="Factors">
                 <a href="factors.html" class="nav-link px-2">Factors</a>
             </li>
             <li class="Diseases">
                 <a href="diseases.html" class="nav-link px-2">Diseases</a>
             </li>
-            <li class="Diseases">
+            <li class="Preventions">
                 <a href="prevention.html" class="nav-link px-2">Preventions</a>
             </li>
             <li class="About">
-                <a href="" class="nav-link px-2">About</a>
+                <a href="about.html" class="nav-link px-2">About</a>
             </li>
-            <li class="Resources">
-                <a href="" class="nav-link px-2">Resources</a>
+            <li class="">
+                <a href="contact.html" class="nav-link px-2">Contact Us</a>
+            </li>
+			<li class="">
+                <a href="donate.html" class="nav-link px-2">Donate</a>
             </li>
         </ul>
 
