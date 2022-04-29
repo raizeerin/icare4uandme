@@ -3,7 +3,7 @@
 }
 
 .justify-content-center {
-    justify-content: center!important;
+    /* justify-content: center!important; */
 }
 
 /*NAVBAR*/
@@ -14,7 +14,7 @@ margin-left: 10px;
 	
 
 .navbar a:hover{
-    color:white;
+    color:blue;
 	margin-left: 10px;
 	text-decoration: underline;
 }
@@ -22,12 +22,6 @@ margin-left: 10px;
 .intro-bg {
 	background-color:#b8daff !important;
 	width:100%;
-}
-
-.nav-link a:hover{
-    color:white !important;
-	margin-left: 10px;
-	text-decoration: underline;
 }
 
 .nav-link {
@@ -41,7 +35,7 @@ margin-left: 10px;
 
 /*others*/
 .d-flex {
-    display: flex!important;
+    /* display: flex!important; */
 }
 
 .border-bottom {
